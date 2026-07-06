@@ -1,5 +1,5 @@
 while True:
-    a = input("Никита крут??????".upper())
-    if a.upper() == "ДА" : print("Спасибо!!")
-    elif a.upper() == "НЕТ" : print("сам ты не крут")
+    a = input("Никита крут??????").strip().upper()
+    if a in ["ДА","LF"]: print("Спасибо!!")
+    elif a in ["НЕТ","YTN"]: print("неверно")
     else : print("только да или нет")
