@@ -1,0 +1,6 @@
+first_name = "никита"
+last_name = "шипенков"
+z = f"hello,{last_name} {first_name}"
+m = f"HELLO,{z.upper()}!!!                                              "
+v = f"{m.rstrip()}"
+print(v)
